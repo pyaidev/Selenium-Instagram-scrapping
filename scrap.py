@@ -42,7 +42,7 @@ def web_scraping():
         time.sleep(5)
     anchors = driver.find_elements(By.TAG_NAME, 'a')
     anchors = [a.get_attribute('href') for a in anchors]
-    parent_dir = "/home/nurmuhammad/uic/wayu.uz/media/instagram"
+    parent_dir = "you_path"
 
     for i, a in enumerate(anchors):
         if str(a).startswith("https://www.instagram.com/p/"):
