@@ -1,4 +1,4 @@
-Project Name
+<b> Project Name </b>
 This project is a web scraping tool for downloading images from an Instagram account.
 
 Requirements
