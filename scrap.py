@@ -21,9 +21,9 @@ def web_scraping():
     password = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='password']")))
     username.clear()
-    username.send_keys('insta_script30')
+    username.send_keys('your-username-instagram')
     password.clear()
-    password.send_keys('py5763030')
+    password.send_keys('your-password-instagram')
 
     button = WebDriverWait(driver, 2).until(EC.element_to_be_clickable(
         (By.CSS_SELECTOR, "button[type='submit']"))).click()
